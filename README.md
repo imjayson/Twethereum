@@ -4,9 +4,15 @@ A basic implementation of twitter on Ethereum with the following features:
 * Tweet, retweet, reply
 * Dapp for displaying of on-chain data
 
-To test contracts on target network, run `truffle test`
-To deploy contracts on target network, run `truffle migrate`
-To run, go to `app` folder and run `npm start`
+## Setup
+1. Setup dependencies for truffle. Run `npm i` in project root 
+2. Setup dependencies for dApp. Run `npm i` in `/app` folder
+3. [Optional] You can test the smart contract without persistence. Use `truffle dev` to start vm and `test`
+4. Start ganache
+5. Deploy contracts on ganache. run `truffle migrate`
+6. Start dApp. Go to `/app` folder and run `npm start`
+7. Configure metamask to connect to your ganache
+8. Go to browser to use Twetherum (use URL in step 6)
 
 ## Twethereum implementation thoughts
 There are many ways to implement the same features needed but we need to consider the tradeoff between good coding practices, off-chain processing cost and on-chain gas cost.
