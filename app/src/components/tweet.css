@@ -1,0 +1,57 @@
+.tweet-time {
+    float: right;
+    font-size:0.8em;
+}
+.tweet {
+    background: rgb(205, 216, 223);
+    margin-bottom: 8px;
+    padding: 16px;
+}
+.tweet-avatar {
+    float: left;
+    margin-right: 12px;
+}
+.tweet-handle {
+    font-weight: bold;
+    margin-top: 12px;
+    float: left;
+}
+.tweet-message {
+    overflow-wrap: break-word;
+    font-size:0.9em;
+    margin-bottom: 8px;
+    clear: both;
+
+}
+.tweet-reply-handle {
+    font-weight: bold;
+}
+.tweet-reply-indicator {
+    font-style: italic;
+    font-size: 0.7em;
+    position: relative;
+    top: -8px;
+    overflow-wrap: break-word;
+}
+.btn.tweet-retweet-button, .btn.tweet-reply-button {
+    padding: 0;
+    margin: 0;
+    margin-right: 4px;
+    user-select: none;
+}
+.btn.tweet-retweet-button[disabled], .btn.tweet-reply-button[disabled] {
+    cursor: not-allowed;
+}
+.btn.tweet-retweet-button:focus, .btn.tweet-reply-button:focus {
+    box-shadow: none;
+}
+.tweet-avatar-container {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+.tweet-box {
+    margin-bottom: 8px;
+}

@@ -1,0 +1,15 @@
+.profile-header {
+    background-color: #007bff;
+    display: flex;
+    height: 120px;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile-handle {
+    font-weight: bolder;
+    color: #fff;
+}
+
+.profile-address {
+    color: #eee;
+}
