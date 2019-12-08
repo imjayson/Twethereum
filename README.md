@@ -11,7 +11,7 @@ A basic implementation of twitter on Ethereum with the following features:
 4. Start ganache
 5. Deploy contracts on ganache. run `truffle migrate`
 6. Start dApp. Go to `/app` folder and run `npm start`
-7. Configure metamask to connect to your ganache
+7. Configure metamask to connect to your ganache's URL and MNEMONIC
 8. Go to browser to use Twetherum (use URL in step 6)
 
 ## Twethereum implementation thoughts
